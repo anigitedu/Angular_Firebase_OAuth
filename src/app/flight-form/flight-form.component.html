@@ -1,0 +1,14 @@
+<form (ngSubmit)="onSubmit()">
+  <input class="form-control" [(ngModel)]="flightInfo.airline" name="airline" placeholder="Airline" required>
+  <input class="form-control" [(ngModel)]="flightInfo.arrivalDate" name="arrivalDate" type="date" required>
+  <input class="form-control" [(ngModel)]="flightInfo.arrivalTime" name="arrivalTime" type="time" required>
+  <input class="form-control" [(ngModel)]="flightInfo.flightNumber" name="flightNumber" placeholder="Flight Number" required>
+  <input class="form-control" [(ngModel)]="flightInfo.numOfGuests" name="numOfGuests" type="number" placeholder="Number of Guests" required>
+  <textarea class="form-control" [(ngModel)]="flightInfo.comments" name="comments" placeholder="Comments"></textarea>
+  <button class="btn btn-primary" type="submit">Submit</button>
+</form>
+
+<div *ngIf="submitSuccess !== null">
+  <p *ngIf="submitSuccess">Submission successful!</p>
+  <p *ngIf="!submitSuccess">Submission failed. Please try again.</p>
+</div>
