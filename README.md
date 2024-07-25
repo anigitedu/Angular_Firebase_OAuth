@@ -26,3 +26,22 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Please fill out the form with your flight details for `successful login`. Ensure that:
+
+- **Airline**: Enter the airline name (e.g., "Emirates").
+- **Arrival Date**: Use the MM/DD/YYYY format (e.g., "07/17/2024").
+- **Arrival Time**: Use a 12-hour clock format followed by AM/PM (e.g., "02:47 PM").
+- **Flight Number**: Enter the flight number (e.g., "AB1234").
+- **Number of Guests**: Enter the total number of guests (e.g., "2").
+- **Comments**: Add any additional information or comments (optional).
+
+Example Input:
+- Airline: Emirates
+- Arrival Date: 07/17/2024
+- Arrival Time: 02:47 PM
+- Flight Number: AB1234
+- Number of Guests: 2
+- Comments: Looking forward to the flight.
+
+![image](https://github.com/user-attachments/assets/fb422e18-c05e-4343-abd6-a6acbd67d24f)
