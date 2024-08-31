@@ -1,4 +1,4 @@
-# Mrgcll
+# Angular_Firebase_OAuth
 Hosted on Firebase : Link : https://mrgcll-7703d.web.app/login
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
